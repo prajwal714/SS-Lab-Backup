@@ -1,0 +1,4 @@
+gcc -fopenmp producer-consumer.c -o producer-consumer.out
+
+ ./producer-consumer.out 
+

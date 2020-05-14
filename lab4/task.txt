@@ -1,0 +1,3 @@
+To implement a symbol table with functions to create, insert, modify, search and display using cpp
+1> Array
+2> Linked list

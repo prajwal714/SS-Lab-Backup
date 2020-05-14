@@ -1,0 +1,38 @@
+Write a C program to do the following:
+
+Using fork() create a child process and print its own ID and ID of its parent then exit.
+The parent process waits for its child to finish and print its own process id and the id of its child process and then exit.
+
+>It is a UNIX system call.
+>Fork system call dosent have any arguments.
+>It returns process ID of the child to the parent process & zero to the child process.
+>After creation of the process both the parent and the child processes start execution from the next instruction.
+
+eg: 
+	main()
+{
+
+	Fork();
+	Fork();
+	printf("Hello");
+}
+
+calling 2^n-1 times
+printing 2^n times
+
+
+
+EXECLP()
+
+it overwrites the parent program with the child program.
+
+execlp(const char *file, const char *agr....../*, (char*) NULL */);
+
+1. File name associated with the file being executed
+2. Argument list to be passed to the second program
+3. terminated by NULL symbol
+
+
+============================================================================================================
+
+Write a C program a simulate the operation of ls command
